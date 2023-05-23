@@ -28,7 +28,7 @@ const { shippingPartnerRouter } = require("./Routes/ShippingPartners.routes");
 const { authenticator } = require("./Middleware/Authenticator");
 const { AdminAuth } = require("./Controller/Admin.controller");
 const { adminAuthenticator } = require("./Middleware/AdminAuthenticator");
-const { shopifyRouter } = require("./Routes/Shopify.routes");
+// const { shopifyRouter } = require("./Routes/Shopify.routes");
 
 const app = express();
 
@@ -44,7 +44,7 @@ app.get("/api/hello", (req, res) => {
 });
 
 //shopify Routes
-app.use("/", shopifyRouter);
+// app.use("/", shopifyRouter);
 
 // api request to check the user is exist or not
 app.post("/api/check-email", checkExistingEmail);
