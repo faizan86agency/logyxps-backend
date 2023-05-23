@@ -1,0 +1,30 @@
+{
+  "name": "logixps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "cookie": "^0.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.0",
+    "ngrok": "^5.0.0-beta.2",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22",
+    "request-promise": "^4.2.6",
+    "nonce": "^1.0.4",
+    "querystring": "^0.2.1"
+  }
+}
